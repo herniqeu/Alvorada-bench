@@ -1,0 +1,74 @@
+model,prompt_template,question_id,question_number,subject,chosen_answer,difficulty_level,uncertainty_level,bloom_taxonomy,is_correct,exam_name,provider,exam_year,exam_type
+claude-3-opus-20240229,zero_shot,q_20,20,Português,C,6.0,3.0,Analyze,False,enem_2017-1,Anthropic,2017,enem
+o3,role_playing,q_1,1,Ciências Humanas,e,6.0,3.0,Analyze,False,enem_2010-1,OpenAI,2010,enem
+claude-opus-4-20250514,zero_shot,q_85,85,Inglês,c,4.0,1.0,Understand,True,unicamp_2016,Anthropic,2016,unicamp
+claude-3-7-sonnet-20250219,chain_of_thought,q_94,94,"Linguagens, Códigos e suas Tecnologias",B,6.0,2.0,Analyze,False,enem_2011-2,Anthropic,2011,enem
+o1,chain_of_thought,q_4,4,Filosofia,A,5.0,2.0,Analyze,False,enem_2024-1,OpenAI,2024,enem
+gpt-4.1-mini,role_playing,q_168,168,Matemática,E,6.0,1.0,Apply,True,enem_2013-2,OpenAI,2013,enem
+claude-3-5-haiku-20241022,zero_shot,q_70,70,Filosofia,D,7.0,3.0,Analyze,True,exams_pt-br_fuvest_2018,Anthropic,pt,exams
+o4-mini,zero_shot,q_74,74,Português,E,5.0,2.0,Analyze,True,exams_pt-br_fuvest_2021,OpenAI,pt,exams
+claude-3-7-sonnet-20250219,zero_shot,q_160,160,Matemática,e,7.0,2.0,Apply,False,enem_2019-2,Anthropic,2019,enem
+o1,chain_of_thought,q_61,61,Tecnologias da Informação,E,4.0,2.0,Analyze,True,enem_2023-1,OpenAI,2023,enem
+claude-3-5-sonnet-20241022,zero_shot,q_70,70,Sociologia,a,7.0,2.0,Analyze,False,unicamp_2024,Anthropic,2024,unicamp
+claude-sonnet-4-20250514,role_playing,q_95,95,Inglês,e,2.0,1.0,Understand,False,enem_2015-2,Anthropic,2015,enem
+gpt-4.1,role_playing,q_4,4,Filosofia,A,4.0,1.0,Analyze,False,enem_2024-1,OpenAI,2024,enem
+o4-mini,chain_of_thought,q_94,94,"Linguagens, Códigos e suas Tecnologias",B,3.0,1.0,Analyze,False,enem_2011-2,OpenAI,2011,enem
+gpt-4.1-mini,chain_of_thought,q_2,2,Química,b,5.0,1.0,Analyze,True,ita_2012-quimica,OpenAI,2012,ita
+gpt-4.1,zero_shot,q_158,158,Física,c,6.0,2.0,Apply,True,enem_2019-2,OpenAI,2019,enem
+claude-3-5-sonnet-20241022,zero_shot,q_45,45,Biologia,e,8.0,3.0,Apply,False,exams_pt-br_fuvest_2019,Anthropic,pt,exams
+o1-preview,chain_of_thought,q_43,43,História,e,5.0,2.0,Analyze,True,exams_pt-br_fuvest_1991,OpenAI,pt,exams
+gpt-4o-mini,chain_of_thought,q_51,51,Geografia,A,5.0,2.0,Understand,False,exams_pt-br_fuvest_2018,OpenAI,pt,exams
+claude-3-7-sonnet-20250219,chain_of_thought,q_8,8,Tecnologias,A,6.0,3.0,Analyze,True,enem_2017-1,Anthropic,2017,enem
+claude-3-5-haiku-20241022,role_playing,q_4,4,CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS,d,7.0,3.0,Analyze,True,enem_2014-1,Anthropic,2014,enem
+deepseek-chat,chain_of_thought,q_92,92,Espanhol,a,6.0,3.0,Analyze,False,enem_2014-2,DeepSeek,2014,enem
+deepseek-reasoner,chain_of_thought,q_89,89,Ciências da Natureza e suas Tecnologias,A,3.0,0.0,Understand,True,enem_2011-1,DeepSeek,2011,enem
+o4-mini,zero_shot,q_67,67,Sociologia,b,3.0,0.0,Understand,True,unicamp_2023,OpenAI,2023,unicamp
+o1-preview,chain_of_thought,q_37,37,Português,d,6.0,2.0,Analyze,False,ita_2010-portugues,OpenAI,2010,ita
+o1,zero_shot,q_85,85,Inglês,c,3.0,2.0,Understand,True,unicamp_2016,OpenAI,2016,unicamp
+claude-3-7-sonnet-20250219,chain_of_thought,q_87,87,Geografia,c,7.0,3.0,Analyze,True,enem_2017-1,Anthropic,2017,enem
+o3,zero_shot,q_49,49,Biologia,b,4.0,4.0,Analyze,False,exams_pt-br_fuvest_2009,OpenAI,pt,exams
+o3-pro,chain_of_thought,q_21,21,História,d,4.0,2.0,Analyze,True,enem_2011-1,OpenAI,2011,enem
+o1-mini,role_playing,q_90,90,Inglês,b,3.0,0.0,Understand,False,exams_pt-br_fuvest_2018,OpenAI,pt,exams
+o4-mini,chain_of_thought,q_26,26,Sociologia,e,6.0,1.0,Analyze,False,enem_2024-1,OpenAI,2024,enem
+gpt-4.1-nano,role_playing,q_52,52,Filosofia,A,4.0,2.0,Apply,True,enem_2023-1,OpenAI,2023,enem
+claude-3-7-sonnet-20250219,zero_shot,q_49,49,Química,a,7.0,3.0,Apply,False,ita_2023,Anthropic,2023,ita
+o3-mini,chain_of_thought,q_30,30,Português,a,4.0,2.0,Analyze,True,enem_2023-1,OpenAI,2023,enem
+gpt-4.1-mini,role_playing,q_50,50,Geografia,A,6.0,1.0,Analyze,False,exams_pt-br_fuvest_2018,OpenAI,pt,exams
+o4-mini,chain_of_thought,q_89,89,Ciências da Natureza e suas Tecnologias,A,3.0,1.0,Remember,True,enem_2011-1,OpenAI,2011,enem
+claude-opus-4-20250514,zero_shot,q_75,75,Geografia,e,4.0,2.0,Understand,True,enem_2022-1,Anthropic,2022,enem
+claude-opus-4-20250514,zero_shot,q_14,14,Matemática,c,7.0,2.0,Analyze,False,ime_2022,Anthropic,2022,ime
+o1-mini,chain_of_thought,q_144,144,Matemática,D,5.0,0.0,Apply,True,enem_2015-2,OpenAI,2015,enem
+deepseek-reasoner,chain_of_thought,q_34,34,Geografia,e,7.0,4.0,Analyze,False,exams_pt-br_fuvest_1992,DeepSeek,pt,exams
+gpt-4.1,role_playing,q_4,4,Ciências Humanas,b,3.0,1.0,Understand,True,enem_2010-1,OpenAI,2010,enem
+claude-3-5-haiku-20241022,chain_of_thought,q_61,61,Tecnologias da Informação,E,7.0,3.0,Analyze,True,enem_2023-1,Anthropic,2023,enem
+o3,role_playing,q_5,5,Química,d,4.0,2.0,Analyze,True,ita_2018-quimica,OpenAI,2018,ita
+o4-mini,zero_shot,q_11,11,Biologia,b,3.0,1.0,Remember,False,exams_pt-br_fuvest_1986,OpenAI,pt,exams
+claude-3-5-haiku-20241022,role_playing,q_9,9,Química,A,7.0,3.0,Understand,False,ita_2018-quimica,Anthropic,2018,ita
+deepseek-chat,chain_of_thought,q_89,89,Ciências da Natureza e suas Tecnologias,A,5.0,2.0,Understand,True,enem_2011-1,DeepSeek,2011,enem
+o3-pro,role_playing,q_3,3,Biologia,a,3.0,2.0,Remember,True,exams_pt-br_fuvest_1983,OpenAI,pt,exams
+claude-3-opus-20240229,chain_of_thought,q_95,95,Inglês,e,2.0,1.0,Remember,False,enem_2015-2,Anthropic,2015,enem
+claude-3-7-sonnet-20250219,chain_of_thought,q_164,164,Ciências da Natureza,b,6.0,2.0,Apply,True,enem_2022-2,Anthropic,2022,enem
+gpt-4o-mini,role_playing,q_20,20,Geografia,C,5.0,2.0,Analyze,True,enem_2019-1,OpenAI,2019,enem
+gpt-4o-mini,zero_shot,q_23,23,Física,a,5.0,2.0,Apply,True,exams_pt-br_fuvest_2019,OpenAI,pt,exams
+o3-mini,chain_of_thought,q_6,6,Física,d,2.0,0.0,Apply,True,ita_2014-quimica,OpenAI,2014,ita
+claude-3-opus-20240229,role_playing,q_75,75,Geografia,e,3.0,2.0,Analyze,True,enem_2022-1,Anthropic,2022,enem
+claude-opus-4-20250514,chain_of_thought,q_27,27,Português,b,6.0,2.0,Analyze,True,ita_2021,Anthropic,2021,ita
+deepseek-chat,chain_of_thought,q_30,30,Filosofia,b,7.0,3.0,Analyze,False,exams_pt-br_fuvest_2023,DeepSeek,pt,exams
+gpt-4.1,zero_shot,q_35,35,Português,c,6.0,2.0,Analyze,False,ita_2013-portugues,OpenAI,2013,ita
+deepseek-reasoner,role_playing,q_1,1,Ciências Humanas,e,6.0,2.0,Analyze,False,enem_2010-1,DeepSeek,2010,enem
+gpt-4.1-mini,role_playing,q_47,47,Filosofia,E,6.0,1.0,Analyze,True,enem_2022-1,OpenAI,2022,enem
+claude-sonnet-4-20250514,chain_of_thought,q_92,92,Espanhol,e,6.0,2.0,Analyze,False,enem_2014-2,Anthropic,2014,enem
+o1-mini,zero_shot,q_72,72,Geografia,a,7.0,2.0,Analyze,True,unicamp_2017,OpenAI,2017,unicamp
+claude-3-7-sonnet-20250219,role_playing,q_93,93,Inglês,A,6.0,2.0,Analyze,True,enem_2014-2,Anthropic,2014,enem
+o3-pro,chain_of_thought,q_24,24,História,b,6.0,3.0,Analyze,False,unicamp_2015,OpenAI,2015,unicamp
+o1-mini,chain_of_thought,q_8,8,Tecnologias,D,5.0,1.0,Analyze,False,enem_2017-1,OpenAI,2017,enem
+gpt-4.1-mini,role_playing,q_4,4,Ciências Humanas,b,4.0,1.0,Understand,True,enem_2010-1,OpenAI,2010,enem
+deepseek-chat,chain_of_thought,q_92,92,Inglês,B,5.0,2.0,Understand,False,enem_2014-2,DeepSeek,2014,enem
+claude-3-7-sonnet-20250219,chain_of_thought,q_4,4,Física,d,7.0,2.0,Analyze,True,exams_pt-br_fuvest_2010,Anthropic,pt,exams
+o3-pro,chain_of_thought,q_8,8,Matemática,c,4.0,2.0,Analyze,True,ita_2014-matematica,OpenAI,2014,ita
+deepseek-reasoner,role_playing,q_70,70,Sociologia,a,6.0,2.0,Analyze,False,unicamp_2024,DeepSeek,2024,unicamp
+claude-3-7-sonnet-20250219,role_playing,q_68,68,Português,b,7.0,3.0,Analyze,True,unicamp_2020,Anthropic,2020,unicamp
+gpt-4.1-nano,chain_of_thought,q_45,45,Geografia,d,7.0,2.0,Evaluate,True,exams_pt-br_fuvest_2017,OpenAI,pt,exams
+gpt-4.1-nano,role_playing,q_89,89,Ciências da Natureza e suas Tecnologias,A,3.0,1.0,Understand,True,enem_2011-1,OpenAI,2011,enem
+claude-3-5-haiku-20241022,chain_of_thought,q_89,89,Ciências da Natureza e suas Tecnologias,A,4.0,2.0,Understand,True,enem_2011-1,Anthropic,2011,enem
+o4-mini,chain_of_thought,q_23,23,Português,d,6.0,3.0,Analyze,False,ita_2010-portugues,OpenAI,2010,ita
