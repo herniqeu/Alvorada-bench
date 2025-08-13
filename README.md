@@ -12,11 +12,7 @@ Run the benchmark on sample data:
 
 ```bash
 python src/runner.py
-```
 
-This evaluates 100 sample questions using GPT-5. Results go to the `results/` folder.
-
-```bash
 Required:
   --model MODEL         Model to evaluate (via LiteLLM)
 
