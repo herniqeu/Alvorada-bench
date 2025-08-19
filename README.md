@@ -2,7 +2,7 @@
 
 Alvorada is a benchmark for evaluating large language models on Brazilian university entrance exams. The dataset contains 4,515 questions from ENEM, FUVEST, IME, ITA, and UNICAMP exams spanning from 1981 to 2025. The benchmark includes results from 20 language models tested using three prompting strategies, generating 270,840 total responses.
 
-![Model Performance](assets/model_perfomance.png)
+![Model Performance](assets/alvorada_bench.png)
 
 # Usage
 
