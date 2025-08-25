@@ -67,8 +67,13 @@ python data/load_data.py --list-column exam_name
 
 The `notebooks/analysis.ipynb` provides analysis and visualization of benchmark results.
 
+## Dataset
+
+The full dataset is available at Hugging Face: [HenriqueGodoy/Alvorada-bench](https://huggingface.co/datasets/HenriqueGodoy/Alvorada-bench)
+
 # Cite
 
+```
 @misc{godoy2025alvoradabenchlanguagemodelssolve,
       title={Alvorada-Bench: Can Language Models Solve Brazilian University Entrance Exams?}, 
       author={Henrique Godoy},
@@ -78,7 +83,4 @@ The `notebooks/analysis.ipynb` provides analysis and visualization of benchmark 
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2508.15835}, 
 }
-
-## Dataset
-
-The full dataset is available at Hugging Face: [HenriqueGodoy/Alvorada-bench](https://huggingface.co/datasets/HenriqueGodoy/Alvorada-bench)
+```
